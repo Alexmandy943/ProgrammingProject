@@ -36,7 +36,7 @@ public class RotationEffect extends RotationInterface implements SingleValueDisc
 
 		//The logging thread performs the addLog function to add to the logs about this activity.
 		Thread logging=new Thread(()->{
-			loggingService.addLog(fileName,"Rotation", 90*Integer.toString(rotateBy) + "°");
+			loggingService.addLog(fileName,"Rotation", Integer.toString(90*rotateBy) + "°");
 		});
 
 		//Starting the threads.
