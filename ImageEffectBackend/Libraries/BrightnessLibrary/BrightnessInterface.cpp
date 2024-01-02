@@ -55,6 +55,8 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_BrightnessInterface_applyB
 
     // Call the function here
     // TODO
+    float float_amount=static_cast<float>(amount);
+    apply_brightness(imageVector,float_amount);
 
 
 

@@ -55,6 +55,8 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_GaussianBlurInterface_appl
 
     // Call the function here
     // TODO
+    float f_radius=static_cast<float>(radius);
+    apply_gaussian_blur(imageVector,f_radius);
 
 
 

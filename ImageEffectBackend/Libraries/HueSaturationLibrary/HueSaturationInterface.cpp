@@ -54,7 +54,9 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_HueSaturationInterface_app
 
 
     // Call the function here
-    applyHueSaturation(imageVector, static_cast<float>(saturationValue), static_cast<float>(hueValue));
+    float f_saturation=static_cast<float>(saturationValue);
+    float f_hue=static_cast<float>(hueValue);
+    apply_hue_saturation(imageVector,f_saturation,f_hue);
 
 
 

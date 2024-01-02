@@ -55,6 +55,8 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_SharpenInterface_applyShar
 
     // Call the function here
     // TODO
+    float f_amount=static_cast<float>(amount);
+    apply_sharpen(imageVector,f_amount);
 
 
 

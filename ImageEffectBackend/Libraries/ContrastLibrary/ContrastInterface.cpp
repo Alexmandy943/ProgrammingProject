@@ -55,6 +55,8 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_ContrastInterface_applyCon
 
     // Call the function here
     // TODO
+    apply_contrast(imageVector,amount);
+
 
 
 

@@ -1,10 +1,14 @@
 #ifndef HUE_SATURATION_H
 #define HUE_SATURATION_H
-#include<vector>
-#include "../Pixel.h"
 
+#include<vector>
+#include<iostream>
+#include<complex>
+#include<algorithm>
+#include<cmath>
+#include "../Pixel.h"
 using namespace std;
 
-void applyHueSaturation(vector< vector<Pixel> > &image, float saturationValue, float hueValue);
+void apply_hue_saturation(vector<vector<Pixel>> &,float ,float );
 
 #endif
